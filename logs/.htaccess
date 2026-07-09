@@ -1,0 +1,7 @@
+# Deny all web access to log files
+<FilesMatch "\.log$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+Order allow,deny
+Deny from all

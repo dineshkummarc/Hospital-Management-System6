@@ -1,0 +1,23 @@
+{
+    "name": "smart-hospital/management-system",
+    "description": "Smart Hospital Management System",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmartHospital\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "vendor-dir": "vendor"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@php -r \"echo '\\n✅ PHPMailer installed. Your SMTP mailer is ready.\\n';\""
+        ]
+    }
+}

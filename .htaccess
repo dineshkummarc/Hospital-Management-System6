@@ -1,0 +1,41 @@
+Options -Indexes
+ServerSignature Off
+
+# ── Deny direct access to sensitive files ──────────────────
+<FilesMatch "\.(sql|log|env|ini|json|lock|md|sh|yml|yaml)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# ── Protect config file ────────────────────────────────────
+<Files "config.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# ── Protect uploads: no PHP execution ─────────────────────
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^uploads/.*\.php$ - [F,L]
+</IfModule>
+
+# ── Redirect to login if not logged in (optional) ─────────
+# This is handled in PHP, but kept here for extra security
+
+# ── Custom 404 ─────────────────────────────────────────────
+ErrorDocument 404 /hospital_management/404.php
+
+# ── Security headers ───────────────────────────────────────
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# ── PHP settings ───────────────────────────────────────────
+<IfModule mod_php.c>
+    php_flag display_errors Off
+    php_value session.cookie_httponly 1
+    php_value session.use_strict_mode 1
+</IfModule>

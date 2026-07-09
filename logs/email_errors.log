@@ -1,0 +1,19 @@
+# Email error log — created Fri May 22 10:33:16 UTC 2026
+[2026-05-26 12:51:48] EVENT=sendEmail | TO=john@gmail.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-26 12:51:48] EVENT=sendEmail | TO=admin@hospital.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-26 12:52:54] EVENT=sendEmail | TO=john@gmail.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-26 12:52:54] EVENT=sendEmail | TO=rajesh@hospital.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-26 12:52:54] EVENT=sendEmail | TO=admin@hospital.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-26 13:22:25] EVENT=sendEmail | TO=aniketpatidar70@gmail.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-26 13:22:25] EVENT=sendEmail | TO=admin@hospital.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-26 13:42:05] EVENT=sendEmail | TO=vedikamuramkar@gmail.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-26 13:42:05] EVENT=sendEmail | TO=admin@hospital.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-26 13:43:01] EVENT=sendEmail | TO=vedikamuramkar@gmail.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-26 13:43:01] EVENT=sendEmail | TO=sunita@hospital.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-26 13:43:01] EVENT=sendEmail | TO=admin@hospital.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-27 12:37:58] EVENT=sendEmail | TO=aniketpatidar70@gmail.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-27 12:37:58] EVENT=sendEmail | TO=admin@hospital.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-27 20:24:51] EVENT=sendEmail | TO=gg@hospital.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-27 20:24:51] EVENT=sendEmail | TO=admin@hospital.com | ERROR=SMTP not configured: host=smtp.gmail.com user=EMPTY pass=EMPTY
+[2026-05-29 08:02:52] EVENT=sendEmailDiagnostic | TO=vallabhprajapat21@gmail.com | ERROR=PHP mail() returned false. Install full PHPMailer (composer require phpmailer/phpmailer) for real SMTP delivery.
+[2026-05-29 08:16:10] EVENT=sendEmailDiagnostic | TO=vallabhprajapat21@gmail.com | ERROR=PHP mail() returned false. Install full PHPMailer (composer require phpmailer/phpmailer) for real SMTP delivery.
