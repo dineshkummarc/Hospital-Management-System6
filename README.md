@@ -192,4 +192,4 @@ hospital_management/
 ## 📞 Support
 For issues or customization, check the code comments throughout each file.
 
-> Built as a Final Year College Project — Smart Hospital Management System
+> Built as a minor College Project — Smart Hospital Management System
