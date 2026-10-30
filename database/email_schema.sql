@@ -1,12 +1,5 @@
--- ================================================================
--- Smart Hospital Management System
--- Email Notification System — Database Schema Addition
--- ================================================================
--- Run this file in phpMyAdmin OR append to hospital.sql
--- It is safe to run multiple times (uses IF NOT EXISTS / IGNORE)
--- ================================================================
 
-USE hospital_management;
+/* USE hospital_management; */
 
 -- ── email_settings table ──────────────────────────────────────
 CREATE TABLE IF NOT EXISTS email_settings (
