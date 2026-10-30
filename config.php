@@ -6,13 +6,13 @@
 
 define('APP_NAME',    'Smart Hospital');
 define('APP_VERSION', '1.1.0');
-define('APP_URL',     'http://localhost/hospital_management');
+define('APP_URL',     'http://localhost/Hospital-Management-System6');
 define('APP_ROOT',    dirname(__FILE__));
 
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'hospital_management');
+define('DB_NAME', 'Hospital6');
 define('DB_PORT', 3306);
 
 define('SESSION_LIFETIME', 7200);
